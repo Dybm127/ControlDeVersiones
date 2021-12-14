@@ -6,8 +6,11 @@
 package geometria;
 
 /**
- *
- * @author javier
+ * Clase donde se definen el radio y
+ * el área del circulo
+ * @version 1.0
+ * @since 30-11-2021
+ * @author Derian Batallas Minda
  */
 public class Circulo implements FiguraGeometrica 
 {
@@ -19,17 +22,29 @@ public class Circulo implements FiguraGeometrica
     {
         this.radio = radio;
     }
-
+    
+    /** 
+     * Método consultor para el atributo radio.
+     * @return Devuelve el Radio del circulo
+     * */
     public double getRadio() 
     {
         return radio;
     }
 
+    /** 
+     * Método modificador del atributo setRadio.
+     * @param radio del circulo.
+     * */
     public void setRadio(double radio) 
     {
         this.radio = radio;
     }
-
+    
+    /** 
+     * Método consultor para el atributo areaRadio.
+     * @return Devuelve el Área del circulo
+     * */
     public double getAreaRadio() 
     {
         return areaRadio;

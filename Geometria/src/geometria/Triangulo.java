@@ -6,22 +6,29 @@
 package geometria;
 
 /**
- *
- * @author javier
+ * Clase donde se definen la base, la altura y
+ * el área del triángulo.
+ * @version 1.0
+ * @since 30-11-2021
+ * @author Derian Batallas Minda
  */
+
 public class Triangulo implements FiguraGeometrica
 {
+	// Atributo que contiene la base del triángulo
     private double base;
+	// Atributo que contiene la altura del triángulo
     private double altura;
+	// Atributo que contiene el área del triángulo
     private double areaTriangulo;
     
-
+    // Constructor que pone la base y la altura.
     public Triangulo(double base, double altura) 
     {
         this.base = base;
         this.altura = altura;
     }
-
+ 
     public double getBase() 
     {
         return base;
@@ -47,6 +54,7 @@ public class Triangulo implements FiguraGeometrica
         return areaTriangulo;
     }
 
+   
     @Override
     public void area() 
     {

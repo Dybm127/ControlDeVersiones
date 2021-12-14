@@ -6,15 +6,17 @@
 package geometria;
 
 /**
- *
- * @author javier
+ * Clase donde se definen las propiedades del rectángulo
+ * @version 1.0
+ * @since 30-11-2021
+ * @author Derian Batallas Minda
  */
 public class Rectangulo implements FiguraGeometrica
 {
     private double base;
     private double altura;
     private double areaRectangulo;
-
+    
     public Rectangulo(double base, double altura) 
     {
         this.base = base;
